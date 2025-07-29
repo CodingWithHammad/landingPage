@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+}
+
+ul div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.li {
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0px 0px 0px 30px;
+    font-size: larger;
+}
+
+.img>img {
+    width: 200px;
+    /* padding-left: 34px; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px 0px;
+
+}
+
+.yes {
+    text-align: center;
+    font-size: xx-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.no {
+    text-align: center;
+    font-size: x-large;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.btn {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+
+}
+
+button {
+    color: whitesmoke;
+    background-color: blue;
+    padding: 10px;
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+
+button:hover {
+    background-color: rgb(103, 103, 224);
+}
+
+.box {
+    height: 250px;
+    width: 30vw;
+    background-color: rgb(118, 99, 214);
+    border: 2px solid black;
+    display: inline-block;
+    flex-direction: column;
+    margin: 20px;
+
+
+
+
+}
+
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+.buttn {
+    background-color: blueviolet;
+    color: aliceblue;
+    display: flex;
+}
+
+.first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 10px; */
+    justify-content: center;
+    width: 100%;
+    height: 80%;
+}
+
+.btn-Inside-Boxs {
+    margin: 5px 0px;
+}
+
+
+.inside-div {
+    padding-top: 6px;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 30pxpx;
+
+
+
+}
+
+
+.btn-Inside-Boxs {
+    background-color: rgb(190, 111, 246);
+    height: 50px;
+    width: 90px;
+}
+
+.containers {
+    background-color: #222222;
+}
+
+.container {
+    margin: 15vh 0px;
+}
+
+.third {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #0000ff;
+}
+
+.third-fourth {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 85px;
+}
+
+.best {
+    padding: 5px 0px;
+}
+
+.fifth {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 50px 150px;
+    color: white;
+}
+
+.cover {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.fourth {
+    color: aqua;
+    padding: 40px;
+    background-color: white;
+    border-radius: 15px;
+    border: 3px solid rgb(242, 248, 248);
+}
+
+.motabhai {
+    text-align: center;
+    color: black;
+}
+
+.signup {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.third {
+    color: rgb(248, 250, 251);
+}
+
+.undercontainer {
+    font-size: xx-large;
+}
+
+.paragraph {
+    font-size: larger;
+    padding-top: 15px;
+}
+
+.color {
+    color: rgb(126, 221, 189);
+    font-weight: bold;
+}
+
+.sign {
+    background-color: rgb(126, 221, 189);
+    font-weight: bold;
+    border: 1px solid rgb(126, 221, 189);
+    ;
+}
+
+.one,
+.three {
+    font-size: x-large;
+}
+
+.best {
+    padding: 10px;
+}
+
+.two,
+.five,
+.four {
+    font-size: large;
+}
+
+
+.lulla {
+    width: 25vw;
+}
+
+.lastbox {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px 40px;
+}
+
+.lulla>div:first-child {
+    font-size: x-large;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+
+.lulla>div>div>a {
+    font-size: larger;
+    margin: 10px 0px;
+    color: black;
+    text-decoration: none;
+
+}
+
+.lulla>div>div {
+    padding-bottom: 3px;
+}
+
+.box4>div:nth-child(3) {
+    width: 75%;
+    margin: auto;
+
+}
+
+.box4>div:nth-child(2),
+.signup {
+    margin-bottom: 20px;
+}
+
+.ultraeditimage>img {
+    width: 220px;
+    height: auto;
+}
+
+footer>div:first-child {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 40px;
+    align-items: center;
+}
+
+.Footer-lastlogo-icons-potion-gap>img {
+    padding: 0px 15px;
+    width: 2vw;
+}
+
+.Footer-lastlogo-icons-potion-gap>svg:hover {
+    cursor: pointer;
+    color: rgba(87, 83, 77, 0.637);
+}
+
+/* .Footer-lastlogo-icons-potion-gap > img{
+    cursor: pointer;
+    color: rgb(39, 225, 45);
+}
+
+.Footer-lastlogo-icons-potion-gap> img:hover{
+    cursor: pointer;
+    color: rgb(67, 151, 225);
+} */
+
+.Footer-Copyright>img {
+    width: 1vw;
+    height: auto;
+}
+
+.Footer-Copyright {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    margin: 20px 40px;
+}
+
+.boxContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 1320px){
+    .box{
+       width: 40vw;
+    }
+    
+    .container{
+        margin:50px;
+    }
+}
+
+@media screen and (max-width:960px){
+    .third{
+        width: 35vw;
+    }
+
+    .fifth{
+        padding: 40px;
+    }
+    .lulla{
+        width: 45vw;
+    }
+}
+@media screen and (max-width:760px){
+    nav{
+        flex-direction: column;
+        
+    }
+    .img{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+}
+@media  screen and (max-width:549px) { 
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .third-fourth{
+    flex-direction: column;
+    row-gap: 40px;
+  }
+  .fourth div > div:first-child{
+    width: 60vw;
+  }
+  .third{
+    width: 80vw;
+  }
+  .fourth{
+    width: 60vw;
+  }
+  .box{
+    width: 70vw;
+  }
+  .ultraeditimage > img{
+    width: 150px;
+  }
+  footer>div:first-child{
+    flex-direction: column;
+  }
+ .Footer-Copyright{
+    justify-content: center;
+ }   
+ .Footer-Copyright>img{
+    width: 4vw;
+ }
+
+}
