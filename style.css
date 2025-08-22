@@ -95,8 +95,8 @@ button:hover {
 }
 
 .buttn {
-    background-color: blueviolet;
-    color: aliceblue;
+    background-color: rgb(89, 23, 150);
+    color: rgb(8, 115, 208);
     display: flex;
 }
 
